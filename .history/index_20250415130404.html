@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>E-commerce Web Design</title>
+</head>
+<body class="font-sans bg-white p-0 w-0 overflow-hidden">
+    <header>
+        <nav>
+            <div role="search">
+                <label for="search-bar">Brand</label>
+                <input type="text" id="search-bar" placeholder="Search" aria-label="Search products">
+                <select id="category" aria-label="Category">
+                    <option value="all">All category</option>
+                    <!-- Other categories can be added here -->
+                </select>
+                <button type="submit">Search</button>
+            </div>
+    
+            <ul role="navigation">
+                <li><a href="#profile" aria-label="Profile">Profile</a></li>
+                <li><a href="#message" aria-label="Message">Message</a></li>
+                <li><a href="#favorites" aria-label="Favorites">Favorites</a></li>
+                <li><a href="#orders" aria-label="Orders">Orders</a></li>
+                <li><a href="#cart" aria-label="Shopping Cart">My cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="index.js"></script>
+</body>
+</html>
