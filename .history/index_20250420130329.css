@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.icon, .dropdown-menu {
+    transition: transform 0.3s ease; /* Smooth rotation effect */
+}

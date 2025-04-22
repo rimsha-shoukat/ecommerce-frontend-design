@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products listing</title>
+</head>
+<body  class="font-sans p-0 m-0 w-[100%] h-auto bg-gray-50>
+    <!--repeated header section from index.html-->
+    <header class="bg-white shadow w-[100%] h-auto">
+
+        <!--First main navbar-->
+         <nav class="w-[100%] shadow flex items-center justify-between gap-[6rem] py-4 px-[6rem]">
+ 
+             <!-- Logo -->
+             <div class="flex flex-row w-[auto] items-center justify-center gap-[0.5rem]">
+                 <img class="w-[2.5rem]" src="assests/logo.png" alt="logo">
+                 <h1 class="text-2xl font-bold text-blue-500">Brand</h1>
+             </div>
+     
+             <!-- Search Bar -->
+             <form class="flex items-center w-full border-2 rounded-md border-blue-500">
+                     <input type="text" placeholder="Search" class="text-gray-500 border-blue-500 border-r-2 w-[60%] p-2" />
+                     <select class="text-gray-500 w-[25%] m-2">
+                         <option>All category</option>
+                         <option>Mobile</option>
+                         <option>Electronics</option>
+                         <option>Smart Phone</option>
+                     </select>
+                 <button type="submit" class="btn bg-blue-500 hover:bg-blue-600 text-white w-[15%] p-2 m-l-[1rem] cursor-pointer">Search</button>
+             </form>
+     
+             <!-- Menu Options -->
+             <nav class="flex space-x-4 w-[auto]">
+                 <a href="#" class="text-gray-600 hover:text-gray-800">Profile</a>
+                 <a href="#" class="text-gray-600 hover:text-gray-800">Message</a>
+                 <a href="#" class="text-gray-600 hover:text-gray-800">Orders</a>
+                 <a href="#" class="text-gray-600 hover:text-gray-800 text-nowrap">My cart</a>
+             </nav>
+         </nav>
+ 
+         <!--Second navbar-->
+         <nav class="w-[100%] flex items-center justify-between font-semibold gap-[6rem] py-4 px-[5.5rem] text-gray-800">
+             <section class="flex flex-row gap-[1.5rem]">
+                 <span class="hover:text-gray-600">
+                     <i class="cursor-pointer fa-solid fa-bars fa-lg"></i>
+                     <a href="#">All Category</a>
+                 </span>
+                 
+                 <a class="hover:text-gray-600" href="#">Hot offers</a>
+                 <a class="hover:text-gray-600" href="#">Gift boxes</a>
+                 <a class="hover:text-gray-600" href="#">Projects</a>
+                 <a class="hover:text-gray-600" href="#">Menu item</a>
+                 <select class="cursor-pointer hover:text-gray-600">
+                     <option>Help</option>
+                 </select>
+             </section>
+             <section class="flex flex-row gap-[1.5rem]">
+                 <select class="cursor-pointer hover:text-gray-600">
+                     <option>English, USD</option>
+                 </select>
+                 <span class="flex flex-row">
+                     <img class="w-[1.8rem] h-[1.2rem]" src="assests/footer-flag.png" alt="flag"/>
+                     <select class="cursor-pointer hover:text-gray-600">
+                         <option>Ship to</option>
+                     </select>
+                 </span>
+                 
+             </section>
+         </nav>
+
+         <!--additional nav-->
+
+ 
+     </header>
+</body>
+</html>

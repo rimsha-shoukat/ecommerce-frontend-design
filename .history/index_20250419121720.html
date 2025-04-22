@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/324d50e246.js" crossorigin="anonymous"></script>
+    <title>E-commerce Web Design</title>
+</head>
+<body class="font-sans p-0 m-0 w-[100%] h-auto bg-gray-50">
+
+    <header class="bg-white shadow w-[100%] h-auto">
+
+       <!--First main navbar-->
+        <nav class="w-[100%] shadow flex items-center justify-between gap-[6rem] py-4 px-[6rem]">
+
+            <!-- Logo -->
+            <div class="flex flex-row w-[auto] items-center justify-center gap-[0.5rem]">
+                <img class="w-[2.5rem]" src="assests/logo.png" alt="logo">
+                <h1 class="text-2xl font-bold text-blue-500">Brand</h1>
+            </div>
+    
+            <!-- Search Bar -->
+            <form class="flex items-center w-full border-2 rounded-md border-blue-500">
+                    <input type="text" placeholder="Search" class="text-gray-500 border-blue-500 border-r-2 w-[60%] p-2" />
+                    <select class="text-gray-500 w-[25%] m-2">
+                        <option>All category</option>
+                        <option>Mobile</option>
+                        <option>Electronics</option>
+                        <option>Smart Phone</option>
+                    </select>
+                <button type="submit" class="btn bg-blue-500 hover:bg-blue-600 text-white w-[15%] p-2 m-l-[1rem] cursor-pointer">Search</button>
+            </form>
+    
+            <!-- Menu Options -->
+            <nav class="flex space-x-4 w-[auto]">
+                <a href="#" class="text-gray-600 hover:text-gray-800">Profile</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">Message</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">Orders</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 text-nowrap">My cart</a>
+            </nav>
+        </nav>
+
+        <!--Second navbar-->
+        <nav class="w-[100%] flex items-center justify-between font-semibold gap-[6rem] py-4 px-[5.5rem] text-gray-800">
+            <section class="flex flex-row gap-[1.5rem]">
+                <span class="hover:text-gray-600">
+                    <i class="cursor-pointer fa-solid fa-bars fa-lg"></i>
+                    <a href="#">All Category</a>
+                </span>
+                
+                <a class="hover:text-gray-600" href="#">Hot offers</a>
+                <a class="hover:text-gray-600" href="#">Gift boxes</a>
+                <a class="hover:text-gray-600" href="#">Projects</a>
+                <a class="hover:text-gray-600" href="#">Menu item</a>
+                <select class="cursor-pointer hover:text-gray-600">
+                    <option>Help</option>
+                </select>
+            </section>
+            <section class="flex flex-row gap-[1.5rem]">
+                <select class="cursor-pointer hover:text-gray-600">
+                    <option>English, USD</option>
+                </select>
+                <span class="flex flex-row">
+                    <img class="w-[1.8rem] h-[1.2rem]" src="assests/footer-flag.png" alt="flag"/>
+                    <select class="cursor-pointer hover:text-gray-600">
+                        <option>Ship to</option>
+                    </select>
+                </span>
+                
+            </section>
+        </nav>
+
+    </header>
+
+    <main class="px-[6rem] py-4 w-[100%]">
+        <!--top banner section-->
+        <section class="w-[100%] h-auto grid grid-cols-5 gap-4 items-center justify-between border shadow border-gray-300 rounded-md p-4 bg-white">
+            <div class="col-span-1 h-auto flex flex-col text-[0.99rem]">
+                <a href="#" class="w-[100%] text-gray-600 hover:text-gray-800 rounded-md hover:bg-blue-200 p-2 cursor-pointer">Automobiles</a>
+                <a href="#" class="w-[100%] text-gray-600 hover:text-gray-800 rounded-md hover:bg-blue-200 p-2 cursor-pointer">Clothes and wear</a>
+                <a href="#" class="w-[100%] text-gray-600 hover:text-gray-800 rounded-md hover:bg-blue-200 p-2 cursor-pointer">Home interiors</a>
+                <a href="#" class="w-[100%] text-gray-600 hover:text-gray-800 rounded-md hover:bg-blue-200 p-2 cursor-pointer">Computer and tech</a>
+                <a href="#" class="w-[100%] text-gray-600 hover:text-gray-800 rounded-md hover:bg-blue-200 p-2 cursor-pointer">Tools, equipments</a>
+                <a href="#" class="w-[100%] text-gray-600 hover:text-gray-800 rounded-md hover:bg-blue-200 p-2 cursor-pointer">Sports and outdoor</a>
+                <a href="#" class="w-[100%] text-gray-600 hover:text-gray-800 rounded-md hover:bg-blue-200 p-2 cursor-pointer">Animal and pets</a>
+                <a href="#" class="w-[100%] text-gray-600 hover:text-gray-800 rounded-md hover:bg-blue-200 p-2 cursor-pointer">Machinery tools</a>
+                <a href="#" class="w-[100%] text-gray-600 hover:text-gray-800 rounded-md hover:bg-blue-200 p-2 cursor-pointer">More category</a>
+            </div>
+            <div class="col-span-3 h-auto relative">
+                <img class="h-[100%] w-[100%]" src="assests/home-banner.png" alt="Banner">
+                <div class="absolute w-[100%] h-[100%] top-[3rem] left-[2.5rem]">
+                    <h1 class="text-[1.95rem]select-none">Latest trending </h1>
+                    <h1 class="text-[2.2rem] select-none font-bold leading-6">Electronic items</h1>
+                    <button class="bg-white px-4 py-2 rounded-md mt-6 cursor-pointer font-semibold hover:bg-gray-100 hover:shadow hover:text-shadow-gray-600 hover:text-shadow-md/30">Learn more</button>
+                </div>
+            </div>
+            <div class="col-span-1 h-auto flex flex-col gap-2 items-center justify-between">
+                <div class="flex flex-col w-[100%] p-4 gap-2 rounded-md bg-blue-50">
+                    <span class="flex flex-row items-center justify-center gap-4">
+                        <i class="fa-solid fa-circle-user text-[3rem] text-blue-300 cursor-pointer hover:text-gray-200"></i>
+                        <p class="text-[1rem] font-semibold leading-5">Hi, user <br>let's get started</p>
+                    </span>
+                    <button class="w-[100%] py-[5px] rounded-md shadow cursor-pointer text-[0.8rem] bg-blue-500 text-white hover:bg-blue-600 mt-2">Join now</button>
+                    <button class="w-[100%] py-[5px] rounded-md shadow cursor-pointer text-[0.8rem] bg-white text-blue-500 hover:bg-gray-100">Log in</button>
+                </div>
+                <span class="bg-[#F38332] rounded-md select-none p-4 w-[100%] text-white leading-5 text-[1rem]">
+                    <p>Get US $10 off</p>
+                    <p>with a new</p>
+                    <p>supplier</p>
+                </span>
+                <span class="bg-[#55BDC3] select-none rounded-md p-4 w-[100%] text-white leading-5 text-[1rem]">
+                    <p>send quote with</p>
+                    <p>supplier</p>
+                    <p>preferences</p>
+                </span>
+            </div>
+        </section>
+
+        <!--Deals and offers section-->
+        <section class="flex flex-row shadow mt-6 items-start justify-between w-[100%] h-auto rounded-md border border-gray-300 bg-white">
+            <div class="p-6 w-[25%] h-[100%]">
+                <h1 class="text-[1rem] font-bold text-black">Deals and Offers</h1>
+                <p class="text-[0.85rem] text-gray-400">Hygiene equipments</p>
+                <div class="flex flex-row gap-2 leading-4 mt-4">
+                    <span class="w-[3rem] h-[3rem] flex flex-col items-center justify-center bg-gray-800 text-white rounded-md shadow">
+                        <h1>04</h1>
+                        <p class="text-gray-400 text-[0.75rem]">Days</p>
+                    </span>
+                    <span class="w-[3rem] h-[3rem] flex flex-col items-center justify-center bg-gray-800 text-white rounded-md shadow">
+                        <h1>13</h1>
+                        <p class="text-gray-400 text-[0.75rem]">Hour</p>
+                    </span>
+                    <span class="w-[3rem] h-[3rem] flex flex-col items-center justify-center bg-gray-800 text-white rounded-md shadow">
+                        <h1>34</h1>
+                        <p class="text-gray-400 text-[0.75rem]">Min</p>
+                    </span>
+                    <span class="w-[3rem] h-[3rem] bg-gray-800 flex flex-col items-center justify-center text-white rounded-md shadow">
+                        <h1>56</h1>
+                        <p class="text-gray-400 text-[0.75rem]">Sec</p>
+                    </span>
+                </div>
+            </div>
+            <div class="w-[75%] grid grid-cols-5">
+                <div class="p-6 col-span-1 border-l leading-4 border-gray-300 flex flex-col gap-2 items-center justifu-center">
+                    <img class="h-[7rem] mb-2" src="assests/deal-img1.png" alt="Deal img">
+                    <h1 class="font-semibold">Smart watches</h1>
+                    <p class="text-red-500 bg-red-100 rounded-full font-semibold px-[0.65rem] py-[0.35rem]">-25%</p>
+                </div>
+                <div class="p-6 col-span-1 border-l border-gray-300 leading-4 flex flex-col gap-2 items-center justifu-center">
+                    <img class="h-[7rem] mb-2" src="assests/deal-img2.png" alt="Deal img">
+                    <h1 class="font-semibold">Laptops</h1>
+                    <p class="text-red-500 bg-red-100 rounded-full font-semibold px-[0.65rem] py-[0.35rem]">-25%</p>
+                </div>
+                <div class="p-6 col-span-1 border-l border-gray-300 leading-4 flex flex-col gap-2 items-center justifu-center">
+                    <img class="h-[7rem] mb-2" src="assests/deal-img3.png" alt="Deal img">
+                    <h1 class="font-semibold">GoPro cameras</h1>
+                    <p class="text-red-500 bg-red-100 rounded-full font-semibold px-[0.65rem] py-[0.35rem]">-25%</p>
+                </div>
+                <div class="p-6 col-span-1 border-l border-gray-300 leading-4 flex flex-col gap-2 items-center justifu-center">
+                    <img class="h-[7rem] mb-2" src="assests/deal-img4.png" alt="Deal img">
+                    <h1 class="font-semibold">Headphones</h1>
+                    <p class="text-red-500 bg-red-100 rounded-full font-semibold px-[0.65rem] py-[0.35rem]">-25%</p>
+                </div>
+                <div class="p-6 col-span-1 border-l border-gray-300 leading-4 flex flex-col gap-2 items-center justifu-centerorder-l">
+                    <img class="h-[7rem] mb-2" src="assests/deal-img5.png" alt="Deal img">
+                    <h1 class="font-semibold">Canon cameras</h1>
+                    <p class="text-red-500 bg-red-100 rounded-full font-semibold px-[0.65rem] py-[0.35rem]">-25%</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Home and outdoor section-->
+        <section class="w-[100%] flex flex-row border border-gray-300 rounded-md shadow mt-6">
+            <div class="w-[25%] relative">
+                <img class="w-[100%] h-[15rem] rounded-l-md" src="assests/home-category-img.png" alt="Home and outdoor">
+                <div class="absolute top-6 left-6">
+                    <h1 class="font-bold text-[1.3rem] leading-6">Home and <br> outdoor</h1>
+                    <button class="p-2 font-semibold mt-4 rounded-md shadow bg-white cursor-pointer">Source now</button>
+                </div>
+            </div>
+            <div class="w-[75%] grid grid-cols-4">
+                <div class="p-4 border-l border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Soft chairs</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br>USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/home-category-img1.png" alt="home-category">
+                </div>
+                <div class="p-4 border-l border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Soft & chair</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br>USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/home-category-img2.png" alt="home-category">
+                </div>
+                <div class="p-4 border-l border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold text-nowrap">Kitchen dishes</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br> USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/home-category-img3.png" alt="home-category">
+                </div>
+                <div class="p-4 border-l border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold text-nowrap">Smart watches</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br> USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/home-category-img4.png" alt="home-category">
+                </div>
+                <div class="p-4 border-l border-t border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Kitchen mixer</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br> USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/home-category-img5.png" alt="home-category">
+                </div>
+                <div class="p-4 border-l border-t border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Blenders</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br> USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/home-category-img6.png" alt="home-category">
+                </div>
+                <div class="p-4 border-l border-t border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold text-nowrap">Home appliances</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br>USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/home-category-img7.png" alt="home-category">
+                </div>
+                <div class="p-4 border-l border-t border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Coffee maker</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br>USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/home-category-img8.png" alt="home-category">
+                </div>
+            </div>
+        </section>
+        
+         <!--Consumer electronics and gadgets section-->
+         <section class="w-[100%] flex flex-row border border-gray-300 rounded-md shadow mt-6">
+            <div class="w-[25%] relative">
+                <img class="w-[100%] h-[15rem] rounded-l-md" src="assests/electronics-category-img.png" alt="Consumer electronics and gadgets">
+                <div class="absolute top-6 left-6">
+                    <h1 class="font-bold text-[1.3rem] leading-6">Consumer <br>electronics and <br> gadgets</h1>
+                    <button class="p-2 font-semibold mt-4 rounded-md shadow bg-white cursor-pointer">Source now</button>
+                </div>
+            </div>
+            <div class="w-[75%] grid grid-cols-4">
+                <div class="p-4 border-l border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold text-nowrap">Smart watches</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br>USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/deal-img1.png" alt="electronics-category">
+                </div>
+                <div class="p-4 border-l border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Cameras</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br>USD 19</p>
+                    </span>
+                    <img class="w-[6rem] h-[5rem]" src="assests/deal-img3.png" alt="electronics-category">
+                </div>
+                <div class="p-4 border-l border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Headphones</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br> USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/electronics-category-img1.png" alt="electronics-category">
+                </div>
+                <div class="p-4 border-l border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold text-nowrap">Smart watches</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br> USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/electronics-category-img2.png" alt="electronics-category">
+                </div>
+                <div class="p-4 border-l border-t border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Gaming set</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br> USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/deal-img4.png" alt="electronics-category">
+                </div>
+                <div class="p-4 border-l border-t border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Laptops & PC</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br> USD 19</p>
+                    </span>
+                    <img class="w-[5rem] mt-4" src="assests/deal-img2.png" alt="electronics-category">
+                </div>
+                <div class="p-4 border-l border-t border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold">Smartphones</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br>USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/electronics-category-img3.png" alt="electronics-category">
+                </div>
+                <div class="p-4 border-l border-t border-gray-300 flex flex-row items-start justify-between">
+                    <span>
+                        <h1 class="font-semibold text-nowrap">Electronic kattle</h1>
+                        <p class="text-gray-400 text-[0.75rem]">from <br>USD 19</p>
+                    </span>
+                    <img class="w-[5rem] h-[5rem]" src="assests/electronics-category-img4.png" alt="electronics-category">
+                </div>
+            </div>
+         </section>
+
+        <!--Send quote to suppliers section-->
+        <section class="w-[100%] bg-red-900 h-[10rem] mt-6 rounded-md border border-gray-300 "></section>
+    </main>
+
+    <footer class="w-[100%] h-auto">
+
+        <!--Extra services section-->
+        <section class="w-[100%] h-auto px-[6rem] py-2">
+            <h1 class="text-[1.5rem] font-bold mb-2">Our extra services</h1>
+            <section class="flex flex-row items-center justify-between gap-[1rem] w-[100%] py-2">    
+                <div class="w-[23%] relative border border-gray-300 shadow rounded-md bg-white">
+                    <span>
+                        <img class="w-[100%] rounded-t-md shadow" src="assests/service-img1.png" alt="service">
+                        <p class="p-4 text-[0.89rem] font-semibold leading-4">Source from <br>industry Hubs</p>
+                    </span>
+                    <i class="absolute p-[0.75rem] cursor-pointer hover:bg-blue-200 bg-blue-100 border-2 border-white rounded-full top-1/2 right-2 fa-solid fa-magnifying-glass"></i>
+                </div>    
+                <div class="w-[23%] relative border border-gray-300 shadow rounded-md bg-white">
+                    <span>
+                        <img class="w-[100%] rounded-t-md shadow" src="assests/service-img2.png" alt="service">
+                        <p class="p-4 text-[0.89rem] font-semibold leading-4">Customize your <br>Products</p>
+                    </span>
+                    <i class="absolute p-[0.75rem] cursor-pointer hover:bg-blue-200 bg-blue-100 border-2 border-white rounded-full top-1/2 right-2 fa-solid fa-box-archive"></i>
+                </div>
+                <div class="w-[23%] relative border border-gray-300 shadow rounded-md bg-white">
+                    <span>
+                        <img class="w-[100%] rounded-t-md shadow" src="assests/service-img3.png" alt="service">
+                        <p class="p-4 text-[0.89rem] font-semibold leading-4">Fast, reliable shipping <br>by ocean or air</p>
+                    </span>
+                    <i class="absolute p-[0.75rem] cursor-pointer hover:bg-blue-200 bg-blue-100 border-2 border-white rounded-full top-1/2 right-2 fa-regular fa-paper-plane"></i>
+                </div>
+                <div class="w-[23%] relative border border-gray-300 shadow rounded-md bg-white">
+                    <span>
+                        <img class="w-[100%] rounded-t-md shadow" src="assests/service-img4.png" alt="service">
+                        <p class="p-4 text-[0.89rem] font-semibold leading-4">Product monitoring <br>and inspection</p>
+                    </span>
+                    <i class="absolute p-[0.75rem] cursor-pointer hover:bg-blue-200 bg-blue-100 border-2 border-white rounded-full top-1/2 right-2 fa-solid fa-shield-halved"></i>
+                </div>
+            </section>
+        </section>
+
+        <!--Suppliers section-->
+        <section class="w-[100%] h-auto px-[6rem] py-4">
+            <h1 class="text-[1.5rem] font-bold mb-2">Suppliers by region</h1>
+
+            <section class="w-[100%] h-auto py-4 grid grid-cols-5 gap-4 items-center justify-between">
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/flag1.png" alt="Arabic Emirates">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">Arabic Emirates</h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.ae</p>
+                    </span>
+                </div>
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/flag2.png" alt="Australia">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">Australia</h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.ae</p>
+                    </span>
+                </div>
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/footer-flag.png" alt="United States">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">United States</h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.ae</p>
+                    </span>
+                </div>
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/flag3.png" alt="Russia">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">Russia</h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.ru</p>
+                    </span>
+                </div>
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/flag4.png" alt="Italy">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">Italy</h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.it</p>
+                    </span>
+                </div>
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/flag5.png" alt="Denmark">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">Denmark</h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.dk</p>
+                    </span>
+                </div>
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/flag6.png" alt="France">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">France</h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.com.fr</p>
+                    </span>
+                </div>
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/flag1.png" alt="Arabic Emirates">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">Arabic Emirates</h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.ae</p>
+                    </span>
+                </div>
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/flag7.png" alt="China">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">China</h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.ae</p>
+                    </span>
+                </div>
+                <div class="flex flex-row items-center justify-between]">
+                    <img src="assests/flag8.png" alt="Great Britain">
+                    <span class="ml-2 leading-4">
+                        <h1 class="font-semibold text-gray-800">Great Britain/h1>
+                        <p class="text-gray-400 text-[0.75rem] cursor-pointer hover:text-gray-600">shopname.co.uk</p>
+                    </span>
+                </div>
+            </section>
+
+        </section>
+
+        <!--Email subscription section-->
+        <section class="w-[100%] h-auto py-[3rem] flex flex-col items-center justify-between bg-gray-200">
+            <h1 class="font-bold text-[1.5rem]">Subscribe on our newsletter</h1>
+            <p class="text-gray-500">Get daily news on upcoming offers from many suppliers all over the world</p>
+            <form class="flex items-center justify-between gap-[0.65rem] w-[30%] rounded-md mt-[1rem]">
+               <input type="email" placeholder="Email" class="text-gray-500 bg-white shadow p-2 w-full rounded-md" />
+               <button type="submit" class="hover:bg-blue-600 bg-blue-500 text-white py-2 px-4 rounded-md cursor-pointer">Subscribe</button>
+        </form>
+        </section>
+
+        <!--Links section-->
+        <section class="w-[100%] flex flex-row items-center justify-between text-left px-[6rem] py-[3rem] bg-white">
+                <div class="w-[25%]">
+                    <div class="flex flex-row items-start justify-start gap-[0.5rem]">
+                        <img class="w-[2.5rem]" src="assests/logo.png" alt="logo">
+                        <h1 class="text-2xl font-bold text-blue-500 select-none">Brand</h1>
+                    </div>
+                    <p class="mt-2 text-[#505050] select-none">Best information about the company goes here but now lorem ipsum is.</p>
+                    <div class="flex space-x-4 mt-6 text-[#505050]">
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-facebook fa-xl"></a>
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-square-twitter fa-xl"></a>
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-linkedin fa-xl"></a>
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-youtube fa-xl"></a>
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-instagram fa-xl"></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">About</h3>
+                    <ul>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">About Us</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Find Store</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Categories</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Blogs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">Partnership</h3>
+                    <ul>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">About Us</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Find Store</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Categories</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Blogs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">Information</h3>
+                    <ul>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Help Center</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Money Refund</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Shipping</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">For Users</h3>
+                    <ul>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Login</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Register</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Settings</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">My Orders</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">Get App</h3>
+                    <div class="text-white flex flex-row items-center justify-evenly pt-[0.65rem] px-[0.5rem] pb-[0.3rem] rounded-md bg-black mb-[1rem]">
+                        <h1 class="pb-2 fa-brands fa-apple fa-xl"></h1>                        
+                        <span>
+                            <p class="text-[0.5rem] leading-1 select-none">Download on the</p>
+                            <h1 class="select-none font-semibold">App Store</h1>
+                        </span>
+                    </div>
+                    <div class="text-white flex flex-row items-center justify-between pt-[0.5rem] px-[0.5rem] pb-[0.3rem] rounded-md bg-black">
+                        <h1 class="pb-2 fa-brands fa-google-play fa-lg"></h1>
+                        <span>
+                            <p class="text-[0.65rem] leading-1 select-none">GET IT ON</p>
+                            <h1 class="select-none font-semibold">Google Play</h1>
+                        </span>
+                    </div>
+                </div>
+        </section>
+
+        <!--copyright section-->
+        <section class="bg-gray-200 py-4 px-[6rem]">
+            <div class="container mx-auto flex justify-between items-center">
+                <span class="text-[#505050] select-none">© 2023 E-commerce</span>
+                <span class="flex flex-row">
+                    <img class="w-[1.8rem] h-[1.2rem]" src="assests/footer-flag.png" alt="flag"/>
+                    <select class="text-[#505050] hover:text-gray-800 cursor-pointer">
+                        <option>English</option>
+                    </select>
+                </span>
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

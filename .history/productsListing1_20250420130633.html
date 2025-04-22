@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/324d50e246.js" crossorigin="anonymous"></script>
+    <title>Products listing</title>
+</head>
+<body  class="font-sans p-0 m-0 w-[100%] h-auto bg-gray-50">
+
+    <!--repeated header section from index.html-->
+    <header class="bg-white shadow w-[100%] h-auto">
+
+        <!--First main navbar-->
+         <nav class="w-[100%] shadow flex items-center justify-between gap-[6rem] py-4 px-[6rem]">
+ 
+             <!-- Logo -->
+             <div class="flex flex-row w-[auto] items-center justify-center gap-[0.5rem]">
+                 <img class="w-[2.5rem]" src="assests/logo.png" alt="logo">
+                 <a href="index.html" class="text-2xl font-bold text-blue-500 cursor-pointer">Brand</a>
+             </div>
+     
+             <!-- Search Bar -->
+             <form class="flex items-center w-full border-2 rounded-md border-blue-500">
+                     <input type="text" placeholder="Search" class="text-gray-500 border-blue-500 border-r-2 w-[60%] p-2" />
+                     <select class="text-gray-500 w-[25%] m-2">
+                         <option>All category</option>
+                         <option>Mobile</option>
+                         <option>Electronics</option>
+                         <option>Smart Phone</option>
+                     </select>
+                 <button type="submit" class="btn bg-blue-500 hover:bg-blue-600 text-white w-[15%] p-2 m-l-[1rem] cursor-pointer">Search</button>
+             </form>
+     
+             <!-- Menu Options -->
+             <nav class="flex space-x-4 w-[auto]">
+                 <a href="#" class="text-gray-600 hover:text-gray-800">Profile</a>
+                 <a href="#" class="text-gray-600 hover:text-gray-800">Message</a>
+                 <a href="#" class="text-gray-600 hover:text-gray-800">Orders</a>
+                 <a href="#" class="text-gray-600 hover:text-gray-800 text-nowrap">My cart</a>
+             </nav>
+         </nav>
+ 
+         <!--Second navbar-->
+         <nav class="w-[100%] flex items-center justify-between font-semibold gap-[6rem] py-4 px-[5.5rem] text-gray-800">
+             <section class="flex flex-row gap-[1.5rem]">
+                 <span class="hover:text-gray-600">
+                     <i class="cursor-pointer fa-solid fa-bars fa-lg"></i>
+                     <a href="#">All Category</a>
+                 </span>
+                 
+                 <a class="hover:text-gray-600" href="#">Hot offers</a>
+                 <a class="hover:text-gray-600" href="#">Gift boxes</a>
+                 <a class="hover:text-gray-600" href="#">Projects</a>
+                 <a class="hover:text-gray-600" href="#">Menu item</a>
+                 <select class="cursor-pointer hover:text-gray-600">
+                     <option>Help</option>
+                 </select>
+             </section>
+             <section class="flex flex-row gap-[1.5rem]">
+                 <select class="cursor-pointer hover:text-gray-600">
+                     <option>English, USD</option>
+                 </select>
+                 <span class="flex flex-row">
+                     <img class="w-[1.8rem] h-[1.2rem]" src="assests/footer-flag.png" alt="flag"/>
+                     <select class="cursor-pointer hover:text-gray-600">
+                         <option>Ship to</option>
+                     </select>
+                 </span>
+                 
+             </section>
+         </nav>
+ 
+     </header>
+
+     <!--additional nav list-->
+     <nav class="flex flex-row items-center justify-start gap-2 text-gray-400 px-[5.5rem] py-4">
+        <h1>Home</h1>
+        <i class="fa-solid fa-angle-right"></i>
+        <h1>Clothing</h1>
+        <i class="fa-solid fa-angle-right"></i>
+        <h1>Men's wear</h1>
+        <i class="fa-solid fa-angle-right"></i>
+        <h1>Summer clothing</h1>
+     </nav>
+
+     <main class="px-[5.5rem] flex gap-4 flex-row w-[100%] h-auto">
+        <!--sidebar-->
+        <aside class="w-[25%] h-auto">
+
+            <div class="w-[100%] border-t-2 border-gray-300">
+                <div class="dropdown cursor-pointer flex flex-row items-center mb-4 mt-2 justify-between">
+                    <h2 class="text-xl font-bold">Category</h2>
+                    <i class="icon rotate-90 fa-solid fa-angle-right"></i>
+                </div>
+                <div class="dropdown-menu text-gray-600 mt-[0.75rem]">
+                    <h1 class="pb-[0.65rem]">Mobile accessory</h1>
+                    <h1 class="pb-[0.65rem]">Electronics</h1>
+                    <h1 class="pb-[0.65rem]">Smartphones</h1>
+                    <h1 class="pb-[0.65rem]">Modern tech</h1>
+                    <h1 class="text-blue-500 cursor-pointer pb-[1rem]">See all</h1>
+                </div>
+            </div>
+            
+            <div class="w-[100%] border-t-2 border-gray-300">
+                <div class="dropdown cursor-pointer flex flex-row items-center mb-4 mt-2 justify-between">
+                    <h2 class="text-xl font-bold">Brands</h2>
+                    <i class="icon rotate-90 fa-solid fa-angle-right"></i>
+                </div>
+                <form class="dropdown-menu text-gray-600">
+                    <div class="flex items-center mb-2">
+                        <input type="checkbox" class="mr-2" />
+                        <label>Samsung</label>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <input type="checkbox" class="mr-2" />
+                        <label>Apple</label>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <input type="checkbox" class="mr-2" />
+                        <label>Huawei</label>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <input type="checkbox" class="mr-2" />
+                        <label>Pocco</label>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <input type="checkbox" class="mr-2" />
+                        <label>Lenovo</label>
+                    </div>
+                    <h1 class="text-blue-500 mb-[1rem]">See all</h1>
+                </form>
+            </div>
+
+            <div class="w-[100%] border-t-2 border-gray-300">
+                <div class="dropdown cursor-pointer flex flex-row items-center mb-4 mt-2 justify-between">
+                    <h2 class="text-xl font-bold">Features</h2>
+                    <i class="icon rotate-90 fa-solid fa-angle-right"></i>
+                </div>
+                <form class="dropdown-menu text-gray-600">
+                    <div class="flex items-center mb-2">
+                        <input type="checkbox" class="mr-2" />
+                        <label>Metallic</label>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <input type="checkbox" class="mr-2" />
+                        <label>Plastic cover</label>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <input type="checkbox" class="mr-2" />
+                        <label>8GB RAM</label>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <input type="checkbox" class="mr-2" />
+                        <label>Super power</label>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <input type="checkbox" class="mr-2" />
+                        <label>Large Memory</label>
+                    </div>
+                    <h1 class="text-blue-500 mb-[1rem]">See all</h1>
+                </form>
+            </div>
+
+        </aside>
+
+    
+        <!--main section-->
+        <section class="w-[70%] h-[10rem] flex flex-col gap-4">
+            <div class="w-[100%] h-[3rem] bg-gray-900"></div>
+            <div class="w-[100%] h-[7rem] bg-blue-900"></div>
+        </section>
+     </main>
+     
+
+
+     <!--repeated footer-->
+     <footer class="w-[100%] h-auto">
+        <!--page navigation section-->
+        <section class="px-[5.5rem] py-6 flex flex-row gap-4 items-center justify-end">
+            <div class="px-2 py-[0.3rem] border border-gray-300 rounded-md shadow flex flex-row">
+                <h1>Show</h1>
+                <select class="">
+                    <option>10</option>
+                </select>
+            </div>
+            <div class="border border-gray-300 shadow rounded-md flex flex-row items-center justify-center">
+                <i class="px-2 py-[0.3rem] text-gray-400 fa-solid fa-angle-left"></i>
+                <h1 class="px-[0.65rem] py-[0.3rem] text-gray-400 bg-gray-100 border-x border-gray-300">1</h1>
+                <h1 class="px-[0.65rem] py-[0.3rem]">2</h1>
+                <h1 class="px-[0.65rem] py-[0.3rem] border-x border-gray-300">3</h1>
+                <i class="px-2 py-[0.3rem] fa-solid fa-angle-right"></i>
+            </div>
+        </section>
+
+        <!--Email subscription section-->
+        <section class="w-[100%] h-auto py-[3rem] flex flex-col items-center justify-between bg-gray-200">
+            <h1 class="font-bold text-[1.5rem]">Subscribe on our newsletter</h1>
+            <p class="text-gray-500">Get daily news on upcoming offers from many suppliers all over the world</p>
+            <form class="flex items-center justify-between gap-[0.65rem] w-[30%] rounded-md mt-[1rem]">
+               <input type="email" placeholder="Email" class="text-gray-500 bg-white shadow p-2 w-full rounded-md" />
+               <button type="submit" class="hover:bg-blue-600 bg-blue-500 text-white py-2 px-4 rounded-md cursor-pointer">Subscribe</button>
+        </form>
+        </section>
+
+        <!--Links section-->
+        <section class="w-[100%] flex flex-row items-center justify-between text-left px-[6rem] py-[3rem] bg-white">
+                <div class="w-[25%]">
+                    <div class="flex flex-row items-start justify-start gap-[0.5rem]">
+                        <img class="w-[2.5rem]" src="assests/logo.png" alt="logo">
+                        <h1 class="text-2xl font-bold text-blue-500 select-none">Brand</h1>
+                    </div>
+                    <p class="mt-2 text-[#505050] select-none">Best information about the company goes here but now lorem ipsum is.</p>
+                    <div class="flex space-x-4 mt-6 text-[#505050]">
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-facebook fa-xl"></a>
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-square-twitter fa-xl"></a>
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-linkedin fa-xl"></a>
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-youtube fa-xl"></a>
+                        <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-instagram fa-xl"></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">About</h3>
+                    <ul>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">About Us</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Find Store</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Categories</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Blogs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">Partnership</h3>
+                    <ul>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">About Us</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Find Store</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Categories</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Blogs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">Information</h3>
+                    <ul>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Help Center</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Money Refund</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Shipping</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">For Users</h3>
+                    <ul>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Login</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Register</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Settings</a></li>
+                        <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">My Orders</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2 text-lg select-none">Get App</h3>
+                    <div class="text-white flex flex-row items-center justify-evenly pt-[0.65rem] px-[0.5rem] pb-[0.3rem] rounded-md bg-black mb-[1rem]">
+                        <h1 class="pb-2 fa-brands fa-apple fa-xl"></h1>                        
+                        <span>
+                            <p class="text-[0.5rem] leading-1 select-none">Download on the</p>
+                            <h1 class="select-none font-semibold">App Store</h1>
+                        </span>
+                    </div>
+                    <div class="text-white flex flex-row items-center justify-between pt-[0.5rem] px-[0.5rem] pb-[0.3rem] rounded-md bg-black">
+                        <h1 class="pb-2 fa-brands fa-google-play fa-lg"></h1>
+                        <span>
+                            <p class="text-[0.65rem] leading-1 select-none">GET IT ON</p>
+                            <h1 class="select-none font-semibold">Google Play</h1>
+                        </span>
+                    </div>
+                </div>
+        </section>
+
+        <!--copyright section-->
+        <section class="bg-gray-200 py-4 px-[6rem]">
+            <div class="container mx-auto flex justify-between items-center">
+                <span class="text-[#505050] select-none">© 2023 E-commerce</span>
+                <span class="flex flex-row">
+                    <img class="w-[1.8rem] h-[1.2rem]" src="assests/footer-flag.png" alt="flag"/>
+                    <select class="text-[#505050] hover:text-gray-800 cursor-pointer">
+                        <option>English</option>
+                    </select>
+                </span>
+            </div>
+        </section>
+
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
