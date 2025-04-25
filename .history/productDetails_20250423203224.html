@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/324d50e246.js" crossorigin="anonymous"></script>
+</head>
+<body class="w-[100%] h-auto bg-gray-50">
+    <!--repeated header section from index.html-->
+    <header class="bg-white shadow w-[100%] h-auto">
+
+        <!--First main navbar-->
+         <nav class="w-[100%] shadow flex items-center justify-between gap-[6rem] py-4 px-[6rem]">
+ 
+             <!-- Logo -->
+             <div class="flex flex-row w-[auto] items-center justify-center gap-[0.5rem]">
+                 <img class="w-[2.5rem]" src="assests/logo.png" alt="logo">
+                 <a href="index.html" class="text-2xl font-bold text-blue-500 cursor-pointer">Brand</a>
+             </div>
+     
+             <!-- Search Bar -->
+             <form class="flex items-center w-full border-2 rounded-md border-blue-500">
+                     <input type="text" placeholder="Search" class="text-gray-500 border-blue-500 border-r-2 w-[60%] p-2" />
+                     <select class="text-gray-500 w-[25%] m-2">
+                         <option>All category</option>
+                         <option>Mobile</option>
+                         <option>Electronics</option>
+                         <option>Smart Phone</option>
+                     </select>
+                 <button type="submit" class="btn bg-blue-500 hover:bg-blue-600 text-white w-[15%] p-2 m-l-[1rem] cursor-pointer">Search</button>
+             </form>
+     
+             <!-- Menu Options -->
+             <nav class="flex space-x-4 w-[auto]">
+                 <a href="#" class="text-gray-600 hover:text-gray-800">Profile</a>
+                 <a href="#" class="text-gray-600 hover:text-gray-800">Message</a>
+                 <a href="#" class="text-gray-600 hover:text-gray-800">Orders</a>
+                 <a href="#" class="text-gray-600 hover:text-gray-800 text-nowrap">My cart</a>
+             </nav>
+         </nav>
+ 
+         <!--Second navbar-->
+         <nav class="w-[100%] flex items-center justify-between font-semibold gap-[6rem] py-4 px-[5.5rem] text-gray-800">
+             <section class="flex flex-row gap-[1.5rem]">
+                 <span class="hover:text-gray-600">
+                     <i class="cursor-pointer fa-solid fa-bars fa-lg"></i>
+                     <a href="productsListing.html">All Category</a>
+                 </span>
+                 
+                 <a class="hover:text-gray-600" href="#">Hot offers</a>
+                 <a class="hover:text-gray-600" href="#">Gift boxes</a>
+                 <a class="hover:text-gray-600" href="#">Projects</a>
+                 <a class="hover:text-gray-600" href="#">Menu item</a>
+                 <select class="cursor-pointer hover:text-gray-600">
+                     <option>Help</option>
+                 </select>
+             </section>
+             <section class="flex flex-row gap-[1.5rem]">
+                 <select class="cursor-pointer hover:text-gray-600">
+                     <option>English, USD</option>
+                 </select>
+                 <span class="flex flex-row">
+                     <img class="w-[1.8rem] h-[1.2rem]" src="assests/footer-flag.png" alt="flag"/>
+                     <select class="cursor-pointer hover:text-gray-600">
+                         <option>Ship to</option>
+                     </select>
+                 </span>
+                 
+             </section>
+         </nav>
+ 
+     </header>
+
+     <!--additional nav list-->
+     <nav class="flex flex-row items-center justify-start gap-2 text-gray-400 px-[5.5rem] py-4">
+        <h1>Home</h1>
+        <i class="fa-solid fa-angle-right"></i>
+        <h1>Clothing</h1>
+        <i class="fa-solid fa-angle-right"></i>
+        <h1>Men's wear</h1>
+        <i class="fa-solid fa-angle-right"></i>
+        <h1>Summer clothing</h1>
+     </nav>
+
+     <main class="w-[100%] h-auto px-[6rem]">
+        <!--Product details-->
+        <section class="w-[100%] h-auto bg-white border border-gray-300 shadow p-4 rounded-md flex flex-row items-start justify-start gap-4 my-4">
+            <div class="w-[30%] flex flex-col h-auto items-start justify-start gap-4">
+                <img class="border border-gray-300 rounded-sm shadow pb-4" src="assests/item8.png" alt="img">
+                <span class="flex flex-row items-start justify-center gap-2">
+                    <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8.png" alt="img">
+                    <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8i.png" alt="img">
+                    <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8ii.png" alt="img">
+                    <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8iii.png" alt="img">
+                    <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8iv.png" alt="img">
+                    <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8.png" alt="img">
+                </span>
+            </div>
+            <div class="flex flex-col items-start justify-start gap-2">
+                <span class="flex flex-row items-start justify-start gap-2">
+                    <i class="fa-solid fa-check text-green-600"></i>
+                    <h1 class="leading-4 text-green-600 text-sm font-semibold">In Stock</h1>
+                </span>
+                <h1 class="font-bold text-[1.3rem]">Mens Long Sleeve T-shirt Cotton Base <br> Layer Slim Muscle</h1>
+                <span class="flex flex-row items-center justify-start gap-2">
+                    <span class="flex flex-row items-center justify-center">
+                      <i class="fa-solid fa-star fa-sm" style="color: #ffaa00;"></i>
+                      <i class="fa-solid fa-star fa-sm" style="color: #ffaa00;"></i>
+                      <i class="fa-solid fa-star fa-sm" style="color: #ffaa00;"></i>
+                      <i class="fa-solid fa-star fa-sm" style="color: #ffaa00;"></i>
+                      <i class="fa-solid fa-star fa-sm" style="color: #cbcac8;"></i>
+                      <p class="text-[#ffaa00] px-[0.3rem]">9.3</p>
+                    </span>
+                    <i class="fa-solid fa-circle text-[6px] text-gray-400"></i>
+                    <span class="flex flex-row items-center justify-center px-[0.3rem]">
+                        <i class="fa-regular fa-message text-gray-500"></i>
+                        <p class="text-gray-500 px-[0.3rem] pb-[0.15rem]">32 reviews</p>
+                    </span>
+                    <i class="fa-solid fa-circle text-[6px] text-gray-400"></i>
+                    <span class="flex flex-row items-center justify-center px-[0.3rem]">
+                        <i class="fa-solid fa-ship text-gray-500"></i>
+                        <p class="text-gray-500 px-[0.3rem] pb-[0.15rem]">154 sold</p>
+                    </span>
+                </span>
+                <span class="flex flex-row items-start justify-start w-[100%] b"></span>
+            </div>
+        </section>
+
+        <!--description section-->
+        <section class="flex flex-row items-start justify-between gap-[2rem] w-[100%] h-auto">
+            <div class="w-[75%] h-auto border border-gray-300 text-gray-600 rounded-md shadow bg-white flex flex-col items-start justify-start gap-2 p-4">
+                <span class="w-[100%] h-auto font-semibold flex flex-row items-start gap-4 justify-start border-b border-gray-300">
+                    <h1 class="pb-2 px-2 text-blue-500 border-b-2 border-blue-500">Description</h1>
+                    <h1 class="pb-2 px-2">Reviews</h1>
+                    <h1 class="pb-2 px-2">Shipping</h1>
+                    <h1 class="pb-2 px-2">About seller</h1>
+                </span>
+                <p class="py-[1rem]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                <br> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <div class="grid grid-cols-3 w-[70%] h-auto border border-gray-400 shadow rounded-sm">
+                    <span class="col-span-1 flex flex-col items-start bg-gray-300 justify-start rounded-l-sm">
+                        <h1 class="text-gray-600 px-2 py-[0.35rem] border-r w-[100%] border-b border-gray-400">Model</h1>
+                        <h1 class="text-gray-600 px-2 py-[0.35rem] border-r w-[100%] border-b border-gray-400">Style</h1>
+                        <h1 class="text-gray-600 px-2 py-[0.35rem] border-r w-[100%] border-b border-gray-400">Certificate</h1>
+                        <h1 class="text-gray-600 px-2 py-[0.35rem] border-r w-[100%] border-b border-gray-400">Size</h1>
+                        <h1 class="text-gray-600 px-2 py-[0.35rem] border-r w-[100%] border-gray-400">Memory</h1>
+                    </span>
+                    <span class="col-span-2 flex flex-col items-start justify-start rounded-r-sm">
+                        <h1 class="w-[100%] px-2 py-[0.35rem] text-gray-600 border-b border-gray-400">#8786867</h1>
+                        <h1 class="w-[100%] px-2 py-[0.35rem] text-gray-600 border-b border-gray-400">Classic style</h1>
+                        <h1 class="w-[100%] px-2 py-[0.35rem] text-gray-600 border-b border-gray-400">ISO-898921212</h1>
+                        <h1 class="w-[100%] px-2 py-[0.35rem] text-gray-600 border-b border-gray-400">34mm x 450mm x 19mm</h1>
+                        <h1 class="w-[100%] px-2 py-[0.35rem] text-gray-600">36GB RAM</h1>
+                    </span>
+                </div>
+                <span class="flex flex-row items-center justify-center gap-2 text-gray-600 mt-4 pb-2">
+                    <i class="fa-solid fa-check" style="color: #7a7a7a;"></i>
+                    <h1 class="leading-4">Some great feature name here</h1>
+                </span>
+                <span class="flex flex-row items-start justify-start gap-2 text-gray-600 pb-2">
+                    <i class="fa-solid fa-check" style="color: #7a7a7a;"></i>
+                    <h1 class="leading-4">Lorem ipsum dolor sit amet, consectetur</h1>
+                </span>
+                <span class="flex flex-row items-start justify-start gap-2 text-gray-600 pb-2">
+                    <i class="fa-solid fa-check" style="color: #7a7a7a;"></i>
+                    <h1 class="leading-4">Duis aute irure dolor in reprehenderit</h1>
+                </span>
+                <span class="flex flex-row items-start justify-start gap-2 text-gray-600 pb-4">
+                    <i class="fa-solid fa-check" style="color: #7a7a7a;"></i>
+                    <h1 class="leading-4">Some great feature name here</h1>
+                </span>
+            </div>
+            <div class="w-[25%] h-auto border border-gray-300 rounded-md shadow bg-white p-4">
+                <h1 class="font-bold text-[1.3rem]">You may like</h1>
+                <span class="flex flex-row items-start justify-start w-[100%] h-[5.5rem] gap-4 mt-2">
+                    <img class="w-[5rem] h-[5rem] rounded-md border border-gray-300 p-2" src="assests/item3.png" alt="img">
+                    <h1 class="font-semibold">Men Blazers Sets <br> Elegant Formal <br> <span class="text-gray-400">$7.00 - $99.50</span></h1>
+                </span>
+                <span class="flex flex-row items-start justify-start w-[100%] h-[5.5rem] gap-4 mt-2">
+                    <img class="w-[5rem] h-[5rem] rounded-md border border-gray-300 p-2" src="assests/item1.png" alt="img">
+                    <h1 class="font-semibold">Men Shirt Sleeve <br> Polo Contrast <br> <span class="text-gray-400">$7.00 - $99.50</span></h1>
+                </span>
+                <span class="flex flex-row items-start justify-start w-[100%] h-[5.5rem] gap-4 mt-2">
+                    <img class="w-[5rem] h-[5rem] rounded-md border border-gray-300 p-2" src="assests/item2.png" alt="img">
+                    <h1 class="font-semibold">Apple Watch Series <br> Space Gray <br> <span class="text-gray-400">$7.00 - $99.50</span></h1>
+                </span>
+                <span class="flex flex-row items-start justify-start w-[100%] h-[5.5rem] gap-4 mt-2">
+                    <img class="w-[5rem] h-[5rem] rounded-md border border-gray-300 p-2" src="assests/item7.png" alt="img">
+                    <h1 class="font-semibold">Basketball Crew <br> Socks Long Stuff <br> <span class="text-gray-400">$7.00 - $99.50</span></h1>
+                </span>
+                <span class="flex flex-row items-start justify-start w-[100%] h-[5.5rem] gap-4 mt-2">
+                    <img class="w-[5rem] h-[5rem] rounded-md border border-gray-300 p-2" src="assests/item5.png" alt="img">
+                    <h1 class="font-semibold">New Summer Men's <br> castrol T-Shirts <br> <span class="text-gray-400">$7.00 - $99.50</span></h1>
+                </span>
+            </div>
+        </section>
+
+        <!--Related Products section-->
+        <section class="my-4 p-4 rounded-md w-[100%] h-auto border shadow border-gray-200 bg-white">
+            <h1 class="font-bold text-black text-[1.3rem]">Related products</h1>
+            <div class="flex flex-row gap-6 items-center justify-evenly w-[100%] h-auto">
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2" src="assests/item4.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
+                    <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
+                </span>
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2 pb-4" src="assests/deal-img1.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
+                    <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
+                </span>
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2" src="assests/electronics-category-img1.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
+                    <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
+                </span>
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2 pb-4" src="assests/item6.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
+                    <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
+                </span>
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2" src="assests/electronics-category-img2.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
+                    <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
+                </span>
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem]" src="assests/home-category-img7.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
+                    <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
+                </span>
+            </div>
+
+        </section>
+
+     </main>
+
+     <!--repeated footer-->
+     <footer class="w-[100%] h-auto">
+
+     <!--Discount banner-->
+     <section class="w-[100%] h-auto px-[6rem] rounded-md">
+        <div class="bg-[#005ADE] h-[6rem] rounded-md shadow relative w-[100%]">
+         <img class="absolute w-[70%] h-[6rem] rounded-l-md top-0 left-0" src="assests/discount-banner.png"/>
+         <div class="flex flex-row items-center justify-between p-6">
+            <span class="z-10 items-start justify-start gap-2 text-white leading-6">
+                <h1 class="font-bold text-[1.3rem]">Super discount on more than 100 USD</h1>
+                <p class="text-gray-100">Have you ever finally just write dummy info</p>
+            </span>
+            <button class="px-4 py-2 font-semibold cursor-pointer bg-[#FF9017] hover:text-white text-gray-100 rounded-md">Shop now</button>
+         </div>
+        </div>
+     </section>
+     <!--Links section-->
+     <section class="w-[100%] flex flex-row items-center justify-between text-left px-[6rem] py-[3rem] bg-white">
+        <div class="w-[25%]">
+            <div class="flex flex-row items-start justify-start gap-[0.5rem]">
+                <img class="w-[2.5rem]" src="assests/logo.png" alt="logo">
+                <h1 class="text-2xl font-bold text-blue-500 select-none">Brand</h1>
+            </div>
+            <p class="mt-2 text-[#505050] select-none">Best information about the company goes here but now lorem ipsum is.</p>
+            <div class="flex space-x-4 mt-6 text-[#505050]">
+                <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-facebook fa-xl"></a>
+                <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-square-twitter fa-xl"></a>
+                <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-linkedin fa-xl"></a>
+                <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-youtube fa-xl"></a>
+                <a href="#" class="text-[#8B96A5] hover:text-gray-700 fa-brands fa-instagram fa-xl"></a>
+            </div>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2 text-lg select-none">About</h3>
+            <ul>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">About Us</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Find Store</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Categories</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Blogs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2 text-lg select-none">Partnership</h3>
+            <ul>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">About Us</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Find Store</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Categories</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Blogs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2 text-lg select-none">Information</h3>
+            <ul>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Help Center</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Money Refund</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Shipping</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2 text-lg select-none">For Users</h3>
+            <ul>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Login</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Register</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">Settings</a></li>
+                <li><a href="#" class="text-[#8B96A5] select-none hover:text-gray-700">My Orders</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2 text-lg select-none">Get App</h3>
+            <div class="text-white flex flex-row items-center justify-evenly pt-[0.65rem] px-[0.5rem] pb-[0.3rem] rounded-md bg-black mb-[1rem]">
+                <h1 class="pb-2 fa-brands fa-apple fa-xl"></h1>                        
+                <span>
+                    <p class="text-[0.5rem] leading-1 select-none">Download on the</p>
+                    <h1 class="select-none font-semibold">App Store</h1>
+                </span>
+            </div>
+            <div class="text-white flex flex-row items-center justify-between pt-[0.5rem] px-[0.5rem] pb-[0.3rem] rounded-md bg-black">
+                <h1 class="pb-2 fa-brands fa-google-play fa-lg"></h1>
+                <span>
+                    <p class="text-[0.65rem] leading-1 select-none">GET IT ON</p>
+                    <h1 class="select-none font-semibold">Google Play</h1>
+                </span>
+            </div>
+        </div>
+     </section>
+ 
+     <!--copyright section-->
+     <section class="bg-gray-200 py-4 px-[6rem]">
+         <div class="container mx-auto flex justify-between items-center">
+             <span class="text-[#505050] select-none">© 2023 E-commerce</span>
+             <span class="flex flex-row">
+                 <img class="w-[1.8rem] h-[1.2rem]" src="assests/footer-flag.png" alt="flag"/>
+                 <select class="text-[#505050] hover:text-gray-800 cursor-pointer">
+                     <option>English</option>
+                 </select>
+             </span>
+         </div>
+     </section>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
