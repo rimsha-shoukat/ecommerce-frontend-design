@@ -1,3 +1,5 @@
+
+
 // display image details
 document.getElementById("mainSection").addEventListener("click", (event) => {
   const anchor = event.target.closest("a");

@@ -1,3 +1,7 @@
+let dropdownBtn = document.getElementsByClassName('dropdown');
+let dropdownMenu = document.getElementsByClassName('dropdown-menu');
+let dropdownIcon = document.getElementsByClassName("icon");
+
 // display image details
 document.getElementById("mainSection").addEventListener("click", (event) => {
   const anchor = event.target.closest("a");
@@ -6,3 +10,4 @@ document.getElementById("mainSection").addEventListener("click", (event) => {
     localStorage.setItem("img", JSON.stringify(imgSrc));
   }
 });
+
