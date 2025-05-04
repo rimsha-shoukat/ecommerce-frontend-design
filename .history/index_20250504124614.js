@@ -139,11 +139,3 @@ saved.addEventListener("click", (event) => {
     localStorage.setItem('img', JSON.stringify(img));
   }
 })
-
-// Restore saved items on page load
-saveItems.forEach((imgSrc) => {
-  const saveBtn = document.querySelector(`.saveBtn[save="${imgSrc}"]`);
-  if (saveBtn) {
-    saveBtn.innerHTML = `<i class="fa-solid fa-heart fa-lg" style="color: #db0000;"></i>`;
-  }
-});

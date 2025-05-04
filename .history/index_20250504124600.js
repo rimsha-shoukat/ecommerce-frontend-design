@@ -110,6 +110,7 @@ toggleDisplay();
 updateList();
 
 // save items
+// const saveItems = ["assests/electronics-category-img3.png", "assests/product1.png", "assests/deal-img1.png", "assests/deal-img2.png"];
 const saveItems = JSON.parse(localStorage.getItem('saveItems'));
 let saved = document.getElementById("itemsList");
 
@@ -139,11 +140,3 @@ saved.addEventListener("click", (event) => {
     localStorage.setItem('img', JSON.stringify(img));
   }
 })
-
-// Restore saved items on page load
-saveItems.forEach((imgSrc) => {
-  const saveBtn = document.querySelector(`.saveBtn[save="${imgSrc}"]`);
-  if (saveBtn) {
-    saveBtn.innerHTML = `<i class="fa-solid fa-heart fa-lg" style="color: #db0000;"></i>`;
-  }
-});

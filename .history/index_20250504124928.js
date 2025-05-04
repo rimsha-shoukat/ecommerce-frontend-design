@@ -113,6 +113,12 @@ updateList();
 const saveItems = JSON.parse(localStorage.getItem('saveItems'));
 let saved = document.getElementById("itemsList");
 
+function updateIcon(){
+  if(products.include(saveItems)){
+    
+  }
+}
+
 //adding items to saveList
 saved.addEventListener("click", (event) => {
   if(event.target.closest('.saveBtn')) {
@@ -139,11 +145,3 @@ saved.addEventListener("click", (event) => {
     localStorage.setItem('img', JSON.stringify(img));
   }
 })
-
-// Restore saved items on page load
-saveItems.forEach((imgSrc) => {
-  const saveBtn = document.querySelector(`.saveBtn[save="${imgSrc}"]`);
-  if (saveBtn) {
-    saveBtn.innerHTML = `<i class="fa-solid fa-heart fa-lg" style="color: #db0000;"></i>`;
-  }
-});
