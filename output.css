@@ -1874,6 +1874,12 @@
   .pr-10 {
     padding-right: calc(var(--spacing) * 10);
   }
+  .pr-\[3rem\] {
+    padding-right: 3rem;
+  }
+  .pr-\[4rem\] {
+    padding-right: 4rem;
+  }
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
   }
@@ -2714,14 +2720,44 @@
       padding-inline: 3rem;
     }
   }
+  .max-\[1025px\]\:relative {
+    @media (width < 1025px) {
+      position: relative;
+    }
+  }
+  .max-\[1025px\]\:top-0 {
+    @media (width < 1025px) {
+      top: calc(var(--spacing) * 0);
+    }
+  }
+  .max-\[1025px\]\:top-2 {
+    @media (width < 1025px) {
+      top: calc(var(--spacing) * 2);
+    }
+  }
   .max-\[1025px\]\:mt-0 {
     @media (width < 1025px) {
       margin-top: calc(var(--spacing) * 0);
     }
   }
+  .max-\[1025px\]\:block {
+    @media (width < 1025px) {
+      display: block;
+    }
+  }
   .max-\[1025px\]\:flex {
     @media (width < 1025px) {
       display: flex;
+    }
+  }
+  .max-\[1025px\]\:grid {
+    @media (width < 1025px) {
+      display: grid;
+    }
+  }
+  .max-\[1025px\]\:hidden {
+    @media (width < 1025px) {
+      display: none;
     }
   }
   .max-\[1025px\]\:w-\[1\] {
@@ -2764,16 +2800,33 @@
       overflow: hidden;
     }
   }
+  .max-\[1025px\]\:border {
+    @media (width < 1025px) {
+      border-style: var(--tw-border-style);
+      border-width: 1px;
+    }
+  }
   .max-\[1025px\]\:border-t {
     @media (width < 1025px) {
       border-top-style: var(--tw-border-style);
       border-top-width: 1px;
     }
   }
+  .max-\[1025px\]\:border-b {
+    @media (width < 1025px) {
+      border-bottom-style: var(--tw-border-style);
+      border-bottom-width: 1px;
+    }
+  }
   .max-\[1025px\]\:border-none {
     @media (width < 1025px) {
       --tw-border-style: none;
       border-style: none;
+    }
+  }
+  .max-\[1025px\]\:border-gray-300 {
+    @media (width < 1025px) {
+      border-color: var(--color-gray-300);
     }
   }
   .max-\[830px\]\:grid-cols-3 {
@@ -2916,6 +2969,11 @@
       color: 1;
     }
   }
+  .max-\[450px\]\:grid {
+    @media (width < 450px) {
+      display: grid;
+    }
+  }
   .max-\[450px\]\:hidden {
     @media (width < 450px) {
       display: none;
@@ -2929,6 +2987,11 @@
   .max-\[450px\]\:p-2 {
     @media (width < 450px) {
       padding: calc(var(--spacing) * 2);
+    }
+  }
+  .max-\[40px\]\:hidden {
+    @media (width < 40px) {
+      display: none;
     }
   }
   .max-\[30px\]\:grid-cols-3 {
