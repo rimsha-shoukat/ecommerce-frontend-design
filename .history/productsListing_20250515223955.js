@@ -66,7 +66,7 @@ let listItems1 = productsList1.map((imgSrc) => {
 
 // Create the HTML for the productsList2 (items in a col)
 let listItems2 = productsList2.map((imgSrc) => {
-    return `<div id="saveIcon" class="flex flex-col p-4 max-[760px]:p-2 items-center justify-center bg-white rounded-md border border-gray-300 shadow max-[690px]:gap-2 gap-[2rem]">
+    return `<div id="saveIcon" class="flex flex-col p-4 max-[760px]:p-2 items-center justify-center bg-white rounded-md border border-gray-300 shadow max-[690px]:gap-0 gap-[2rem]">
         <a href="productDetails.html" class="itemDetail" detail="${imgSrc}"> <img class="w-[15rem] max-[560px]:h-[7rem] max-[560px]:w-[7rem]  max-[420px]:h-[4rem] max-[420px]:w-[4rem] max-[760px]:p-0 p-2 h-[13rem]" src="${imgSrc}"/> </a>
         <div class="flex flex-row gap-4">
             <span class="flex flex-col">

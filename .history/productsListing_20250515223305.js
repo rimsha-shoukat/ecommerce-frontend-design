@@ -67,7 +67,7 @@ let listItems1 = productsList1.map((imgSrc) => {
 // Create the HTML for the productsList2 (items in a col)
 let listItems2 = productsList2.map((imgSrc) => {
     return `<div id="saveIcon" class="flex flex-col p-4 max-[760px]:p-2 items-center justify-center bg-white rounded-md border border-gray-300 shadow max-[690px]:gap-2 gap-[2rem]">
-        <a href="productDetails.html" class="itemDetail" detail="${imgSrc}"> <img class="w-[15rem] max-[560px]:h-[7rem] max-[560px]:w-[7rem]  max-[420px]:h-[4rem] max-[420px]:w-[4rem] max-[760px]:p-0 p-2 h-[13rem]" src="${imgSrc}"/> </a>
+        <a href="productDetails.html" class="itemDetail" detail="${imgSrc}"> <img class="w-[15rem] max-[560px]:h-[rem] max-[560px]:w-[4rem] max-[760px]:p-0 p-2 h-[13rem]" src="${imgSrc}"/> </a>
         <div class="flex flex-row gap-4">
             <span class="flex flex-col">
               <h1 class="font-semibold">$998.00 <span class="text-gray-400 line-through text-sm max-[690px]:hidden">$1128.00</span></h1>
@@ -79,7 +79,7 @@ let listItems2 = productsList2.map((imgSrc) => {
                 <i class="fa-solid fa-star fa-sm" style="color: #cbcac8;"></i>
                 <p class="text-[#ffaa00] ml-2">7.5</p>
               </span>
-              <h1 class="text-gray-700 mt-2 leading-5 max-[560px]:text-sm max-[420px]:hidden">GoPro HERO6 4K Action Camera - Black</h1>
+              <h1 class="text-gray-700 mt-2 leading-5">GoPro HERO6 4K Action Camera - Black</h1>
             </span>
             <span class="max-[690px]:hidden saveBtn w-[3rem] h-[2.5rem] p-2 border border-gray-300 shadow rounded-md cursor-pointer text-[#1491f0]" save="${imgSrc}" >
               <i class="fa-regular fa-heart fa-lg"></i>

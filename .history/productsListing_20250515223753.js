@@ -79,7 +79,7 @@ let listItems2 = productsList2.map((imgSrc) => {
                 <i class="fa-solid fa-star fa-sm" style="color: #cbcac8;"></i>
                 <p class="text-[#ffaa00] ml-2">7.5</p>
               </span>
-              <h1 class="text-gray-700 mt-2 leading-5 max-[560px]:text-sm max-[420px]:hidden">GoPro HERO6 4K Action Camera - Black</h1>
+              <h1 class="text-gray-700 mt-2 leading-5 max-[560px]:text-sm ">GoPro HERO6 4K Action Camera - Black</h1>
             </span>
             <span class="max-[690px]:hidden saveBtn w-[3rem] h-[2.5rem] p-2 border border-gray-300 shadow rounded-md cursor-pointer text-[#1491f0]" save="${imgSrc}" >
               <i class="fa-regular fa-heart fa-lg"></i>
