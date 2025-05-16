@@ -8,56 +8,11 @@
     <script src="https://kit.fontawesome.com/324d50e246.js" crossorigin="anonymous"></script>
 </head>
 <body class="w-[100%] h-auto bg-gray-50">
-
     <!--repeated header section from index.html-->
     <header class="bg-white shadow w-[100%] h-auto">
 
-         <!-- responsive nav -->
-        <span class="hidden max-[970px]:block">
-            <!-- responsive nav -->
-        <nav class="flex flex-row justify-between items-center px-4 py-4 w-[100%]">
-            <span class="flex flex-row items-center justify-center gap-4">
-                <!-- bars -->
-                <i class="cursor-pointer fa-solid fa-bars fa-xl" style="color: #000000;"></i>
-
-                <!-- Logo -->
-                <div class="flex flex-row w-[auto] items-center justify-center gap-[0.5rem]">
-                    <img class="w-[2.5rem]" src="assests/logo.png" alt="logo">
-                    <h1 class="text-2xl font-bold text-blue-500">Brand</h1>
-                </div>
-            </span>
-            
-            <span class="flex flex-row items-center justify-center gap-4">
-                <!-- cart icon -->
-                <a href="cart.html"><i class="cursor-pointer fa-solid fa-cart-shopping fa-xl" style="color: #000000;"></i></a>
-
-                <!-- user icon -->
-                <i class="cursor-pointer fa-solid fa-user fa-xl" style="color: #000000;"></i>
-            </span>
-        </nav>  
-
-        <!-- search bar -->
-         <div class="px-4 py-2 w-[100%]">
-            <input type="text" placeholder="Search" class="text-gray-500 border w-[100%] font-semibold bg-gray-100 border-gray-300 rounded-md p-2" />
-         </div>
-
-         <!-- menu items -->
-          <div class="w-[100%] px-4 py-2 flex flex-row gap-[0.5rem] items-center justify-between text-blue-500 overflow-hidden">
-            <a href="productsListing.html"><h1 class="p-2 rounded-md bg-gray-100 font-semibold text-nowrap">All Category</h1></a>
-            <h1 class="p-2 rounded-md bg-gray-100 font-semibold">Gadgets</h1>
-            <h1 class="p-2 rounded-md bg-gray-100 font-semibold">Clothes</h1>
-            <h1 class="p-2 rounded-md bg-gray-100 font-semibold">Accessory</h1>
-            <h1 class="p-2 rounded-md bg-gray-100 font-semibold">Gadgets</h1>
-            <h1 class="p-2 rounded-md bg-gray-100 font-semibold">Clothes</h1>
-            <h1 class="p-2 rounded-md bg-gray-100 font-semibold">Accessory</h1>
-            <h1 class="p-2 rounded-md bg-gray-100 font-semibold">Gadgets</h1>
-            <h1 class="p-2 rounded-md bg-gray-100 font-semibold">Clothes</h1>
-            <h1 class="p-2 rounded-md bg-gray-100 font-semibold">Accessory</h1>
-          </div>
-        </span>
-
         <!--First main navbar-->
-         <nav class="max-[970px]:hidden w-[100%] shadow flex items-center justify-between gap-[6rem] py-4 px-[6rem] max-[1370px]:px-4">
+         <nav class="w-[100%] shadow flex items-center justify-between gap-[6rem] py-4 px-[6rem] max-[1370px]:px-4">
  
              <!-- Logo -->
              <div class="flex flex-row w-[auto] items-center justify-center gap-[0.5rem]">
@@ -66,8 +21,8 @@
              </div>
      
              <!-- Search Bar -->
-             <form class="flex items-center w-full border-2 max-[1370px]:w-[40%] rounded-md border-blue-500">
-                     <input type="text" placeholder="Search" class="text-gray-500 border-blue-500 border-r-2 w-[60%] p-2" />
+             <form class="flex items-center w-full border-2 rounded-md border-blue-500">
+                     <input type="text" placeholder="Search" class="text-gray-500 border-blue-500 border-r-2 w-[60%] max-[1370px]:w-[40%] p-2" />
                      <select class="text-gray-500 w-[25%] m-2">
                          <option>All category</option>
                          <option>Mobile</option>
@@ -100,7 +55,7 @@
          </nav>
  
          <!--Second navbar-->
-         <nav class="max-[970px]:hidden w-[100%] flex items-center justify-between font-semibold gap-[6rem] py-4 px-[5.5rem] text-gray-800  max-[1370px]:px-4">
+         <nav class="w-[100%] flex items-center justify-between font-semibold gap-[6rem] py-4 px-[5.5rem] text-gray-800  max-[1370px]:px-4">
              <section class="flex flex-row gap-[1.5rem]">
                  <span class="hover:text-gray-600">
                      <i class="cursor-pointer fa-solid fa-bars fa-lg"></i>
@@ -132,7 +87,7 @@
      </header>
 
      <!--additional nav list-->
-     <nav class="max-[970px]:hidden flex flex-row items-center justify-start gap-2 text-gray-400 px-[5.5rem] py-4  max-[1370px]:px-4">
+     <nav class="flex flex-row items-center justify-start gap-2 text-gray-400 px-[5.5rem] py-4  max-[1370px]:px-4">
         <h1>Home</h1>
         <i class="fa-solid fa-angle-right"></i>
         <h1>Clothing</h1>
@@ -144,18 +99,13 @@
 
      <main class="w-[100%] h-auto px-[6rem]  max-[1370px]:px-4">
         <!--Product details-->
-        <section class="w-[100%] h-auto bg-white border border-gray-300 shadow p-6 max-[350px]:p-2 rounded-md flex flex-row max-[680px]:flex-col items-start justify-start gap-4 my-4">
-            <div class="w-[30%] max-[680px]:w-[100%] flex flex-col h-auto items-start justify-start gap-4">
+        <section class="w-[100%] h-auto bg-white border border-gray-300 shadow p-6 rounded-md flex flex-row items-start justify-start gap-4 my-4">
+            <div class="w-[30%] flex flex-col h-auto items-start justify-start gap-4">
                 <span id="products" class="border border-gray-300 rounded-sm shadow pb-4 flex w-[100%] h-auto items-center justify-start">
-                    <!-- img displays here -->
+                    <!-- img display here -->
                 </span>
-                <span class="hidden max-[1080px]:block w-[100%]">
-                <button class="inline w-[80%] text-[1.15rem] font-semibold cursor-pointer mt-2 py-2 rounded-md bg-blue-500 text-white shadow">Send inquiry</button>
-                <div id="saveLater" class="inline ml-4 font-semibold py-2 cursor-pointer hover:bg-blue-500 rounded-md text-[1.2rem]">
-                    <i class="text-blue-500 hover:text-white fa-regular fa-heart fa-xl"></i>
-                </div>
-                </span>
-                <span class="flex flex-row items-start justify-center gap-2 max-[1080px]:hidden">
+                
+                <span class="flex flex-row items-start justify-center gap-2">
                     <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8.png" alt="img">
                     <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8i.png" alt="img">
                     <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8ii.png" alt="img">
@@ -164,12 +114,12 @@
                     <img class="w-[3.2rem] h-[3.2rem] border border-gray-300 rounded-sm p-[0.3rem]" src="assests/item8.png" alt="img">
                 </span>
             </div>
-            <div class="flex flex-col max-[1080px]:w-[60%] max-[680px]:w-[100%] w-[38%] items-start justify-start gap-2">
+            <div class="flex flex-col w-[38%] items-start justify-start gap-2">
                 <span class="flex flex-row items-start justify-start gap-2">
                     <i class="fa-solid fa-check text-green-600"></i>
                     <h1 class="leading-4 text-green-600 text-sm font-semibold">In Stock</h1>
                 </span>
-                <h1 class="font-bold text-[1.3rem]">Mens Long Sleeve T-shirt Cotton Base <br class="max-[510px]:hidden"> Layer Slim Muscle</h1>
+                <h1 class="font-bold text-[1.3rem]">Mens Long Sleeve T-shirt Cotton Base <br> Layer Slim Muscle</h1>
                 <span class="flex flex-row items-center justify-start gap-2">
                     <span class="flex flex-row items-center justify-center">
                       <i class="fa-solid fa-star fa-sm" style="color: #ffaa00;"></i>
@@ -182,16 +132,16 @@
                     <i class="fa-solid fa-circle text-[6px] text-gray-400"></i>
                     <span class="flex flex-row items-center justify-center px-[0.3rem]">
                         <i class="fa-regular fa-message text-gray-500"></i>
-                        <p class="text-gray-500 px-[0.3rem] pb-[0.15rem] max-[510px]:hidden">32 reviews</p>
+                        <p class="text-gray-500 px-[0.3rem] pb-[0.15rem]">32 reviews</p>
                     </span>
                     <i class="fa-solid fa-circle text-[6px] text-gray-400"></i>
                     <span class="flex flex-row items-center justify-center px-[0.3rem]">
                         <i class="fa-solid fa-ship text-gray-500"></i>
-                        <p class="text-gray-500 px-[0.3rem] pb-[0.15rem] max-[510px]:hidden">154 sold</p>
+                        <p class="text-gray-500 px-[0.3rem] pb-[0.15rem]">154 sold</p>
                     </span>
                 </span>
             
-                <span class="flex flex-row items-start justify-start w-[100%] bg-red-100 p-4 max-[1080px]:hidden">
+                <span class="flex flex-row items-start justify-start w-[100%] bg-red-100 p-4">
                     <span class="border-r-2 border-gray-400 leading-6 pr-10">
                         <h1 class="text-red-600 font-semibold text-[1.3rem]">$98.00</h1>
                         <p class="text-gray-500">50-100 pcs</p>
@@ -221,7 +171,7 @@
                     <h1 class="text-gray-400 w-[35%]">Design:</h1>
                     <h1 class="text-gray-600">Modern nice</h1>
                 </span>
-                <span class="max-[510px]:hidden flex flex-row w-[100%] items-start justify-start pb-2 border-t border-gray-300 text-[1.1rem] py-2">
+                <span class="flex flex-row w-[100%] items-start justify-start pb-2 border-t border-gray-300 text-[1.1rem] py-2">
                     <h1 class="text-gray-400 w-[35%]">Customization:</h1>
                     <h1 class="text-gray-600">Customized logo and <br> design custom packages</h1>
                 </span>
@@ -234,7 +184,7 @@
                     <h1 class="text-gray-600">2 years full warranty</h1>
                 </span>
             </div>
-            <div class="flex flex-col gap-2 items-center justify-center w-[30%] h-auto max-[1080px]:hidden">
+            <div class="flex flex-col gap-2 items-center justify-center w-[30%] h-auto">
                 <div class="flex flex-col gap-2 items-start justify-start w-[100%] h-auto p-4 border border-gray-300 rounded-md shadow">
                     <span class="w-[100%] flex flex-row items-center justify-start gap-4 pb-4 border-b-2 border-gray-300">
                         <img class="w-[4rem] h-[4rem]" src="assests/profile.jpg" alt="user-profile">
@@ -264,16 +214,16 @@
 
         <!--description section-->
         <section class="flex flex-row items-start justify-between gap-[2rem] w-[100%] h-auto">
-            <div class="w-[75%] max-[1080px]:w-[100%] h-auto border border-gray-300 text-gray-600 rounded-md shadow bg-white flex flex-col items-start justify-start gap-2 max-[350px]:p-0 p-4">
-                <span class="max-[510px]:hidden w-[100%] h-auto font-semibold flex flex-row items-start gap-4 justify-start border-b border-gray-300">
+            <div class="w-[75%] h-auto border border-gray-300 text-gray-600 rounded-md shadow bg-white flex flex-col items-start justify-start gap-2 p-4">
+                <span class="w-[100%] h-auto font-semibold flex flex-row items-start gap-4 justify-start border-b border-gray-300">
                     <h1 class="pb-2 px-2 text-blue-500 border-b-2 border-blue-500">Description</h1>
                     <h1 class="pb-2 px-2">Reviews</h1>
                     <h1 class="pb-2 px-2">Shipping</h1>
                     <h1 class="pb-2 px-2">About seller</h1>
                 </span>
-                <p class="py-[1rem] max-[510px]:hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                <p class="py-[1rem]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                 <br> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                <div class="grid grid-cols-3 w-[70%] max-[510px]:w-[100%] h-auto border border-gray-400 shadow rounded-sm">
+                <div class="grid grid-cols-3 w-[70%] h-auto border border-gray-400 shadow rounded-sm">
                     <span class="col-span-1 flex flex-col items-start bg-gray-300 justify-start rounded-l-sm">
                         <h1 class="text-gray-600 px-2 py-[0.35rem] border-r w-[100%] border-b border-gray-400">Model</h1>
                         <h1 class="text-gray-600 px-2 py-[0.35rem] border-r w-[100%] border-b border-gray-400">Style</h1>
@@ -306,7 +256,7 @@
                     <h1 class="leading-4">Some great feature name here</h1>
                 </span>
             </div>
-            <div class="w-[25%] max-[1080px]:hidden h-auto border border-gray-300 rounded-md shadow bg-white p-4">
+            <div class="w-[25%] h-auto border border-gray-300 rounded-md shadow bg-white p-4">
                 <h1 class="font-bold text-[1.3rem]">You may like</h1>
                 <span class="flex flex-row items-start justify-start w-[100%] h-[5.5rem] gap-4 mt-2">
                     <img class="w-[5rem] h-[5rem] rounded-md border border-gray-300 p-2" src="assests/item3.png" alt="img">
@@ -332,37 +282,37 @@
         </section>
 
         <!--Related Products section-->
-        <section class="my-4 p-4 max-[350px]:p-0 rounded-md w-[100%] h-auto border shadow border-gray-200 bg-white">
-            <h1 class="font-bold text-black text-[1.3rem] max-[350px]:p-2">Related products</h1>
-            <div class="flex flex-row gap-6 max-[510px]:gap-4 max-[350px]:gap-2 max-[970px]:grid max-[970px]:grid-cols-3 max-[510px]:grid-cols-2 items-center justify-evenly w-[100%] h-auto">
-                <span class="flex flex-col shadow p-2 max-[970px]:cols-span-1">
-                    <img class="w-[8rem] h-[8.5rem] p-2 max-[350px]:p-0" src="assests/item4.png" alt="item">
-                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br class="max-[350px]:hidden"> Original</h1>
+        <section class="my-4 p-4 rounded-md w-[100%] h-auto border shadow border-gray-200 bg-white">
+            <h1 class="font-bold text-black text-[1.3rem]">Related products</h1>
+            <div class="flex flex-row gap-6 items-center justify-evenly w-[100%] h-auto">
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2" src="assests/item4.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
                     <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
                 </span>
-                <span class="flex flex-col shadow p-2 max-[970px]:cols-span-1">
-                    <img class="w-[8rem] h-[8.5rem] p-2 pb-4 max-[350px]:p-0" src="assests/deal-img1.png" alt="item">
-                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br class="max-[350px]:hidden"> Original</h1>
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2 pb-4" src="assests/deal-img1.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
                     <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
                 </span>
-                <span class="flex flex-col shadow p-2 max-[970px]:cols-span-1">
-                    <img class="w-[8rem] h-[8.5rem] p-2 max-[350px]:p-0" src="assests/electronics-category-img1.png" alt="item">
-                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br class="max-[350px]:hidden"> Original</h1>
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2" src="assests/electronics-category-img1.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
                     <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
                 </span>
-                <span class="flex flex-col shadow p-2 max-[970px]:cols-span-1">
-                    <img class="w-[8rem] h-[8.5rem] p-2 pb-4 max-[350px]:p-0" src="assests/item6.png" alt="item">
-                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br class="max-[350px]:hidden"> Original</h1>
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2 pb-4" src="assests/item6.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
                     <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
                 </span>
-                <span class="flex flex-col shadow p-2 max-[970px]:cols-span-1">
-                    <img class="w-[8rem] h-[8.5rem] p-2 max-[350px]:p-0" src="assests/electronics-category-img2.png" alt="item">
-                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br class="max-[350px]:hidden"> Original</h1>
+                <span class="flex flex-col shadow p-2">
+                    <img class="w-[8rem] h-[8.5rem] p-2" src="assests/electronics-category-img2.png" alt="item">
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
                     <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
                 </span>
-                <span class="flex flex-col shadow p-2 max-[970px]:cols-span-1">
+                <span class="flex flex-col shadow p-2">
                     <img class="w-[8rem] h-[8.5rem]" src="assests/home-category-img7.png" alt="item">
-                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br class="max-[350px]:hidden"> Original</h1>
+                    <h1 class="leading-5 font-semibold text-gray-800">Xiaomi Redmi 8 <br> Original</h1>
                     <p class="text-gray-500 font-semibold">$32.00-$40.00</p>
                 </span>
             </div>
@@ -375,7 +325,7 @@
     <footer class="w-[100%] h-auto">
 
      <!--Discount banner-->
-     <section class="max-[580px]:hidden w-[100%] h-auto px-[6rem] max-[1370px]:px-4 rounded-md">
+     <section class="w-[100%] h-auto px-[6rem] max-[1370px]:px-4 rounded-md">
         <div class="bg-[#005ADE] h-[6rem] rounded-md shadow relative w-[100%]">
          <img class="absolute w-[70%] h-[6rem] rounded-l-md top-0 left-0" src="assests/discount-banner.png"/>
          <div class="flex flex-row items-center justify-between p-6">
@@ -388,7 +338,7 @@
         </div>
      </section>
      <!--Links section-->
-     <section class="max-[970px]:hidden w-[100%] flex flex-row items-center justify-between text-left px-[6rem] max-[1370px]:px-4 py-[3rem] bg-white">
+     <section class="w-[100%] flex flex-row items-center justify-between text-left px-[6rem] max-[1370px]:px-4 py-[3rem] bg-white">
         <div class="w-[25%]">
             <div class="flex flex-row items-start justify-start gap-[0.5rem]">
                 <img class="w-[2.5rem]" src="assests/logo.png" alt="logo">
@@ -459,10 +409,10 @@
      </section>
  
      <!--copyright section-->
-     <section class="bg-gray-200 py-4 px-[6rem] max-[970px]:w-[100%] max-[1370px]:px-4">
+     <section class="bg-gray-200 py-4 px-[6rem]  max-[1370px]:px-4">
          <div class="container mx-auto flex justify-between items-center">
              <span class="text-[#505050] select-none">© 2023 E-commerce</span>
-             <span class="flex flex-row max-[970px]:hidden">
+             <span class="flex flex-row">
                  <img class="w-[1.8rem] h-[1.2rem]" src="assests/footer-flag.png" alt="flag"/>
                  <select class="text-[#505050] hover:text-gray-800 cursor-pointer">
                      <option>English</option>
