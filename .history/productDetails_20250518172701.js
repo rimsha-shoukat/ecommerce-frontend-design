@@ -11,7 +11,6 @@ if(image){
 // save for later
 let saveItems= JSON.parse(localStorage.getItem('saveItems'));
 let save = document.getElementById("saveLater");
-
 save.addEventListener("click", (event) =>{
     if(event.target.closest(".group")){
         if (!saveItems.includes(image)) {
@@ -22,6 +21,7 @@ save.addEventListener("click", (event) =>{
         }else{
          save.innerHTML = `<i class="text-blue-600 group-hover:text-white max-[1080px]:hidden fa-regular fa-heart fa-lg"></i>
                            <h1 class="text-blue-600 group-hover:text-white">Save for later</h1>`;
+                           console.log("saved1")
         // remove item if already exist
         const index = saveItems.indexOf(image);
         if (index > -1) {
