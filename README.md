@@ -25,7 +25,7 @@ The e-commerce front-end design focuses on delivering a seamless and engaging us
 
 This project allowed me to enhance my front-end development skills and gain practical experience in creating user-centered designs. I learned the importance of responsive design, accessibility, and performance optimization in delivering a high-quality web experience.
 
-Live demo : https://rimsha-shoukat.github.io/ecommerce-frontend-design/
+#Live demo : https://rimsha-shoukat.github.io/ecommerce-frontend-design/
 
 ## Contact
 
