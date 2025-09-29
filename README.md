@@ -28,9 +28,12 @@ This project allowed me to enhance my front-end development skills and gain prac
 ## Live demo : https://rimsha-shoukat.github.io/ecommerce-frontend-design/
 
 ## Clone the repository
-``bash
+
+ ```bash
+
 git clone https://github.com/rimsha-shoukat/ecommerce-frontend-design.git
 
+```
 ## Contact
 
 Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/rimsha-shoukat).
